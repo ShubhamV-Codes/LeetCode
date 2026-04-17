@@ -34,14 +34,7 @@ void inorder(TreeNode* root) {
 }
 
 int main() {
-    /*
-        Original tree:
-              4
-            /   \
-           2     7
-          / \   / \
-         1   3 6   9
-    */
+    
 
     TreeNode* root = new TreeNode(4,
         new TreeNode(2, new TreeNode(1), new TreeNode(3)),
